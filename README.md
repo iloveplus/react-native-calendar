@@ -1,18 +1,17 @@
-**使用如下：**<hr>
-`<Calendar
+# 使用如下： #
+
+    <Calendar
              currentMonthData={this.state.data}
              onScroll={this._onScroll}
              onPick={this._selectDate}
-         />`
+         />
 
-<br>
-<hr/>
-  <ul>
-    <li>currentMonthData:初始化请求数据</li>  
-    <li>onScroll:滚动时回调事件</li>
-    <li>onPick：获取选中日期</li>
-  </ul>
-  
-  <hr/>
- 效果图：
- <img style="width:400px;display: block;" src="demo.png">  
+## 参数说明： ##
+1. currentMonthData:初始化请求数据
+2. onScroll:滚动时回调事件
+3. onPick：获取选中日期
+
+
+## 效果图： ##
+
+![](https://github.com/iloveplus/react-native-calendar/blob/master/demo.png)
